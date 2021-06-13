@@ -1,0 +1,249 @@
+
+
+.header{
+	min-height: 50px;
+	background-color: gray;
+	font-size: 50px;
+	color: white;
+}
+
+.wrapper{
+	border: 2px solid violet;
+	overflow: hidden;
+}
+.blog{
+	min-height: 150px;
+	background-color: green;
+	font-size: 50px;
+	color: white;
+	width: 70%;
+	float: left;
+}
+.contact{
+	min-height: 150px;
+	background-color: red;
+	font-size: 50px;
+	color: white;
+	width: 30%;
+	float: right;
+}
+.footer{
+	min-height: 50px;
+	background-color: black;
+	color: white;
+	font-size: 50px;
+}
+
+/********** for layout 02*****************/
+
+.box-1{
+  min-height:280px;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  width:33.33%;
+  float: left;
+
+}
+.box-2{
+  min-height:280px;
+  background-color:yellow;
+  color: white;
+  font-size: 50px;
+  width:33.33%;
+  float: left;
+}
+.box-3{
+  min-height:280px;
+  background-color:darkblue;
+  color: white;
+  font-size: 50px;
+  width:33.33%;
+   float: left;
+}
+
+/************* layout 03**********/
+
+.team-area{
+	overflow: hidden;
+}
+.team-area h2{
+	text-align: center;
+	font-size: 60px;
+}
+.member{
+	width:25%;
+	float: left;
+}
+.member img{
+	width: 50%;
+	min-height:60%;
+   
+}
+.member h3{}
+.member p{}
+
+/************ layout-04**********/
+
+.services{
+	overflow: hidden;
+}
+.single-service{
+	width:15%;
+	float: left;
+	margin-left: 15px;
+}
+.services h2 {
+    font-size: 60px;
+    text-align: center;
+   
+}
+.single-service img{
+	width:25%;
+	margin: 0 auto;
+}
+.single-service h4{
+	
+}
+.single-service p{
+	
+}
+
+/********w3schools work*********/
+.w3school{
+	text-align: center;
+	font-size: 60px;
+	border-bottom: 1px solid black;
+}
+
+.css-colors{
+	font-size: 40px;
+}
+.two-color{
+	color: red;
+	background-color: green;
+}
+.tomato{
+	background-color: tomato;
+	color: white;
+	padding: 30px 10px;
+}
+
+.gray{
+	background-color: gray;
+	color: white;
+}
+
+
+.mediumseagreen{
+	background-color: mediumseagreen;
+	color: white;
+}
+
+.lightgray{
+	background-color: lightgray;
+	color: white;
+}
+
+.slateblue{
+	background-color: slateblue;
+	color: white;
+}
+
+.violet{
+	background-color: violet;
+	color: white;
+}
+.dodgerblue{
+	background-color: dodgerblue;
+	color: white;
+}
+.orange{
+	background-color: orange;
+	color: white;
+}
+h2{
+	padding: 15px 0px;
+}
+
+/********** css backgrounds******/
+.bg-image{
+    background-image: url(../images/tree.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0px;
+
+}
+
+/********* css borders**********/
+.border-all{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.border-bottom{
+	border-bottom: 2px dashed mediumseagreen;
+}
+
+.border-top{
+	border-top: 2px dotted orange;
+}
+.border-left{
+	border-left: 5px solid mediumseagreen;
+}
+
+.border-right{
+	border-right: 5px solid violet;
+}
+
+/******** css border button******/
+a.border-btn {
+    text-decoration: none;
+    background: tomato;
+    color: white;
+    width: -webkit-fill-available;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.box01{
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+	margin: 50px 0px 30px 100px;
+	border: 2px solid black;
+}
+
+.box02{
+	height: 400px;
+	width: 400px;
+	background-color: tomato;	
+	border: 2px solid black;
+	
+}
+.box02 h5{
+	border: 1px solid black;
+	padding: 50px 100px;
+}
+/******* csss list type********/
+.circle li{
+ 	list-style-type: circle;
+ }
+ .squire li{
+ 	list-style-type: square;
+ }
+ .roman li{
+ 	list-style-type: upper-roman;
+ }
+ /********css outline*******/
+
+ .outline{
+ 	border: 1px solid black;
+ 	outline: 2px solid mediumseagreen;
+ 	outline-offset: 15px;
+ 	width: 80%;
+ 	margin: auto;
+ 	margin-bottom: 50px;
+ 	
+ }
